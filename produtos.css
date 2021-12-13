@@ -1,0 +1,16 @@
+header {
+	background: #BBBBBB;
+}
+nav li { /* navigation com o todos o itens da lista*/
+	display: inline; 
+	margin: 0 0 0 15px; /* 0 0 0  primeiro digito = top, segundo = right, terceiro = down, quarto = left  */
+}
+
+nav a { /* navigation + ancor */
+	text-transform: uppercase; /* texto em maiusculo*/
+	color: #000000;
+	font-weight: bolder; /* fonte em negrito */
+	font-size: 22px;
+	text-decoration: none; /* retirar a decoracao do texto sublinhado*/
+
+}
