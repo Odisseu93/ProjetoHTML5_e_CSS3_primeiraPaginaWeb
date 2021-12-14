@@ -1,6 +1,18 @@
 header {
 	background: #BBBBBB;
+	padding: 20px 0;
+} 
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
 }
+nav{
+	position: absolute;
+	top: 125px;
+	right: 0;
+} 
 nav li { /* navigation com o todos o itens da lista*/
 	display: inline; 
 	margin: 0 0 0 15px; /* 0 0 0  primeiro digito = top, segundo = right, terceiro = down, quarto = left  */
