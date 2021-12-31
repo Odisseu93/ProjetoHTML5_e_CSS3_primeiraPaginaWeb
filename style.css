@@ -101,7 +101,7 @@ form {
 	margin: 40px 0;
 }
 
-form label, form p {
+form label, form legend { /* para definir as propriedade para mais de um item, adicionar "," depois do item anterior*/
 	display: block;
 	font-size: 20px;
 	margin: 0 0 10px;
