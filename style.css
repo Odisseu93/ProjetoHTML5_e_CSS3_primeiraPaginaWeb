@@ -133,5 +133,5 @@ form label, form legend { /* para definir as propriedade para mais de um item, a
 
  .enviar:hover{
  	background: darkorange; /* backgroud laranja escuro*/
-    transform: scale(1.2); /* aumenta o item em 20%*/
+    transform: scale(1.2); /* aumenta o item em 20% <https://developer.mozilla.org/en-US/docs/Web/CSS/transform>*/ 
  }
