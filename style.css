@@ -121,6 +121,7 @@ form label, form legend { /* para definir as propriedade para mais de um item, a
  .enviar {
  	width: 40%;
  	padding: 15px 0;
+ 	margin: 10px 0;
  	background: orange;
  	color: white;
  	font-weight: bold;
