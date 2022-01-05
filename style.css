@@ -148,6 +148,6 @@ form label, form legend { /* para definir as propriedade para mais de um item, a
  }
 
  td,th {
- 	/* border: 1px solid #000000; */
+ 	border: 1px solid #000000;
  	padding: 8px 15px;
  }
