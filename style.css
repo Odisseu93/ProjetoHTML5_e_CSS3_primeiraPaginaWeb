@@ -136,3 +136,18 @@ form label, form legend { /* para definir as propriedade para mais de um item, a
  	background: darkorange; /* backgroud laranja escuro*/
     transform: scale(1.2); /* aumenta o item em 20% <https://developer.mozilla.org/en-US/docs/Web/CSS/transform>*/ 
  }
+
+ table {
+ 	margin: 20px 0 40px;
+ }
+
+ thead {
+ 	background: #555555;
+ 	color: white;
+ 	font-weight: bold;
+ }
+
+ td,th {
+ 	border: 1px solid #000000;
+ 	padding: 8px 15px;
+ }
