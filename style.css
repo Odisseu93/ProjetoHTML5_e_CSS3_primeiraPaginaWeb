@@ -8,7 +8,7 @@ header {
 	width: 940px;
 	margin: 0 auto;
 }
-nav{
+nav {
 	position: absolute;
 	top: 125px;
 	right: 0;
@@ -27,18 +27,18 @@ nav a { /* navigation + ancor */
 
 }
 
-nav a:hover{
+nav a:hover {
 	color: #C78C19;
 	text-decoration: underline;
 }
 
-.produtos{
+.produtos {
 	width: 940px;
 	margin:0 auto;
 	padding:50px 0;
 }
 
-.produtos li{
+.produtos li {
 	display: inline-block;
 	text-align: center;
 	width: 30%;
@@ -57,7 +57,7 @@ nav a:hover{
 	border-color: #C78C19;
 }
 
-.produtos li:active{ /* comportamento quando o elemento estiver ativo(clique pressionado)*/
+.produtos li:active { /* comportamento quando o elemento estiver ativo(clique pressionado)*/
 	border-color: #088C19;
 }
 
@@ -65,7 +65,7 @@ nav a:hover{
 	font-size: 34px;
 }
 
-.produtos h2{
+.produtos h2 {
 	font-size: 30px;
 	font-weight: bold;
 }
@@ -74,7 +74,7 @@ nav a:hover{
 	font-size: 18px;
 }
 
-.produto-preco{
+.produto-preco {
 	font-size: 22px;
 	font-weigth: bold;
 	margin:10px 0 0;
@@ -107,7 +107,7 @@ form label, form legend { /* para definir as propriedade para mais de um item, a
 	margin: 0 0 10px;
 }
 
-.input-padrao{
+.input-padrao {
 	display: block;
 	margin: 0 0 20px;
 	padding: 10px 20px;
@@ -132,7 +132,7 @@ form label, form legend { /* para definir as propriedade para mais de um item, a
  	cursor: pointer; /* muda o cursor pata a "maozinha"*/
  }
 
- .enviar:hover{
+ .enviar:hover {
  	background: darkorange; /* backgroud laranja escuro*/
     transform: scale(1.2); /* aumenta o item em 20% <https://developer.mozilla.org/en-US/docs/Web/CSS/transform>*/ 
  }
@@ -151,3 +151,31 @@ form label, form legend { /* para definir as propriedade para mais de um item, a
  	border: 1px solid #000000;
  	padding: 8px 15px;
  }
+
+/*  CSS da página inicial*/
+.banner {
+	width: 100%;
+}
+
+/* margin documentation https://developer.mozilla.org/pt-BR/docs/Web/CSS/margin */
+.titulo-principal {
+	text-align: center;
+	font-size: 2em; /* em = tamanho base , então 2em  = 2X o tamanho base*/
+	margin: 0 0 1em; /*  espaçamento de 1X o tamanho base da fonte */
+}
+
+.principal p {
+	margin: 0 0 1em;
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+.imagembeneficios {
+	width: 60%;
+}
