@@ -1,3 +1,7 @@
+body {
+	font-family: 'Montserrat', sans-serif; /* https://fonts.google.com/specimen/Montserrat?preview.text=Barbearia%20Alura&preview.text_type=custom&query=mont#standard-styles*/
+}
+
 header {
 	background: #BBBBBB;
 	padding: 20px 0;
