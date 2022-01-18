@@ -162,6 +162,7 @@ form label, form legend { /* para definir as propriedade para mais de um item, a
 	text-align: center;
 	font-size: 2em; /* em = tamanho base , então 2em  = 2X o tamanho base*/
 	margin: 0 0 1em; /*  espaçamento de 1X o tamanho base da fonte */
+	clear: left; /* limpando o float a esquerda, antes do benfícios*/
 }
 
 .principal p {
@@ -178,4 +179,10 @@ form label, form legend { /* para definir as propriedade para mais de um item, a
 
 .imagembeneficios {
 	width: 60%;
+}
+
+.utensilios {
+	width: 120px;
+	float: left; /* https://developer.mozilla.org/pt-BR/docs/Web/CSS/float */
+	margin: 0 20px 20px 0; /* ↑ → ↓ ← */
 }
