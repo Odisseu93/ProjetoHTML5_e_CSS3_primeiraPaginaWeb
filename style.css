@@ -97,8 +97,7 @@ footer {
 }
 
 main {
- width: 940px;
- margin: 0 auto;
+
 }
 
 form {
@@ -169,6 +168,13 @@ form label, form legend { /* para definir as propriedade para mais de um item, a
 	clear: left; /* limpando o float a esquerda, antes do benfícios*/
 }
 
+.principal {
+	padding: 3em ;
+	background: #FFFFFF;
+	 width: 940px;
+ margin: 0 auto;
+
+}
 .principal p {
 	margin: 0 0 1em;
 }
@@ -186,8 +192,13 @@ form label, form legend { /* para definir as propriedade para mais de um item, a
 	margin: 0 20px 20px 0; /* ↑ → ↓ ← */
 }
 
+.mapa-conteudo {
+	width: 940px;
+	margin: 0 auto;
+}
 .mapa {
 	padding: 3em 0;
+	background: linear-gradient(#FFFFFF, #888888); /* Degrade tambem tem a propriedade radial para "arredondar" */
 }
 
 .mapa p{
@@ -197,6 +208,7 @@ form label, form legend { /* para definir as propriedade para mais de um item, a
 
 .beneficios {
 	padding: 3em 0;
+	background: #888888;
 }
 
 .conteudo-beneficios {
