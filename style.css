@@ -168,6 +168,19 @@ form label, form legend { /* para definir as propriedade para mais de um item, a
 	clear: left; /* limpando o float a esquerda, antes do benfícios*/
 }
 
+/* .titulo-principal:first-letter{ /* primeira letra em negrito */
+	font-weight: bold;
+}
+
+/*
+.titulo-principal:before{ 
+	content: "{ ";  adiciona "{ " antes do conteudo*/ 
+/* } */
+/* 
+.titulo-principal:after {
+	content: " }"; /* adiciona "} " depois do conteudo*/
+/* } */
+
 .principal {
 	padding: 3em ;
 	background: #FFFFFF;
@@ -228,6 +241,10 @@ form label, form legend { /* para definir as propriedade para mais de um item, a
 
 .itens:first-child { /* primeiro item */
 	font-weight: bold;
+}
+
+.itens:before{
+	content: "✶"
 }
 
 /* ultimo item */
