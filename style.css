@@ -297,7 +297,7 @@ img + p {
 
 @media screen and (max-width: 480px) {
 	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
-		width: 	auto;
+		width: 	90%;
 	}
 
 	h1 {
@@ -305,11 +305,22 @@ img + p {
 
 	}
 
-	nav{
+	nav {
 		position: static;
+		padding: 10px;
 	}
 
+	nav a, .titulo-principal. h3 p {
+		color: #FFFFFF;
+	} 
+
 	.imagem-beneficios, .lista-beneficios{
-		width: 100%
+		width: 90%
 	}
+
+.principal {
+	font-size: 15px;
+	margin-left: 20px
+}
+
 }
